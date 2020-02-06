@@ -8,7 +8,7 @@ public class NumberUtilities {
         
         for(int i = 1; i < stop; i++){
             String temp = "" + i;
-            holder = holder + temp;
+            holder += temp;
         }
         
         return holder;
@@ -18,7 +18,7 @@ public class NumberUtilities {
        String holder = "" + start;
        for(int i = start + 1; i < stop; i ++){
             String temp = "" + i;
-            holder = holder + temp;
+            holder += temp;
        }
        return holder;
     }
